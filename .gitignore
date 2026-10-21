@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+results/received/
+results/*_sender*.log
+results/*_receiver.log
+large_test.bin
+received_files/

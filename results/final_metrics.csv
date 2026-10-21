@@ -1,0 +1,6 @@
+scenario,mode,success,bytes,seconds,throughput_mbps,retransmissions,packets,sha256_verified,link_failure_triggered,error
+normal,adaptive,True,10485760,43.5267,1.9272,0,8739,True,False,
+failover,adaptive,True,10485760,43.7384,1.9179,2,8739,True,True,
+concurrent,adaptive,True,20971520,0.7368,227.7038,0,17478,True,False,
+loss20,adaptive,True,10485760,356.927,0.235,2219,8739,True,False,
+failover,static,False,10485760,,,,,False,True,Sender 1 failed; inspect /home/srujan/reliable-udp-sdn/results/failover_static_sender1.log
